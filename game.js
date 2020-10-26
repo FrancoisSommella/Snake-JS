@@ -9,3 +9,4 @@ function main(currentTime) {
 }
 
 window.requestAnimationFrame(main)
+window.requestAnimationFrame(main)
