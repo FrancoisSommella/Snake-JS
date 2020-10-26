@@ -16,10 +16,5 @@ function main(currentTime) {
 
 window.requestAnimationFrame(main)
 
-function update() {
+window.requestAnimationFrame(main)
 
-}
-
-function draw() {
-
-}
