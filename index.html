@@ -21,18 +21,20 @@
       width: 100vmin;
       height: 100vmin;
       display: grid;
-      grid-template-rows: repeat(21, 1fr);
-      grid-template-columns: repeat(21, 1fr);
+      grid-template-rows: repeat(29, 1fr);
+      grid-template-columns: repeat(29, 1fr);
     }
 
     .snake {
       background-color: green;
-      border: .25vmin solid black;
+      /*border: .25vmin solid black;*/
+      border-radius: 4px;
     }
 
     .food {
       background-color: red;
       border: .25vmin solid black;
+      border-radius: 50%;
     }
   </style>
   <script src="game.js" defer type="module"></script>
